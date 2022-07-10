@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: model
+
+mybatis-plus:
+  #xml文件位置
+  mapper-locations: classpath*:/mapper/*Mapper.xml
+
+server:
+  port: 8889
